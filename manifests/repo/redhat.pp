@@ -24,7 +24,7 @@ class php::repo::redhat (
     priority   => 1,
   }
 
-  yumrepo { 'remi-php56':
+  yumrepo { 'remi-php72':
     descr      => 'Remi\'s PHP 7.2 RPM repository for Enterprise Linux $releasever - $basearch',
     mirrorlist => "https://rpms.remirepo.net/enterprise/${releasever}/php72/mirror",
     enabled    => 1,
